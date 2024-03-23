@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+header, h1 {
+    text-align: left;
+    font-family:monospace;
+}
+
+header {
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+}
+
+
+footer{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    border-top: 1px solid black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .logoimage {
+    height: 80%;
+    width: 100%;
+    background-image: url("../images/icon.png");
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+footer, p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
